@@ -2,7 +2,7 @@ object frmGraph: TfrmGraph
   Left = 0
   Top = 0
   Caption = 'Graph Layout'
-  ClientHeight = 478
+  ClientHeight = 390
   ClientWidth = 650
   Color = clWhite
   Font.Charset = DEFAULT_CHARSET
@@ -18,12 +18,13 @@ object frmGraph: TfrmGraph
   TextHeight = 13
   object controlPanel: TPanel
     Left = 0
-    Top = 436
+    Top = 348
     Width = 650
     Height = 42
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 1
+    ExplicitTop = 436
     object btnScramble: TButton
       Left = 8
       Top = 8
@@ -63,15 +64,16 @@ object frmGraph: TfrmGraph
   end
   object edgesPanel: TPanel
     Left = 0
-    Top = 379
+    Top = 299
     Width = 650
-    Height = 57
+    Height = 49
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 0
+    ExplicitTop = 387
     DesignSize = (
       650
-      57)
+      49)
     object lblEdges: TLabel
       Left = 8
       Top = 8
